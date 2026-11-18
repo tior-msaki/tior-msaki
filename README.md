@@ -7,7 +7,7 @@
 ### Featured Reinforcement Learning & AI Engineering Work
 
 #### 1. [Power of 2 — Reinforcement Learning & Failure-Mode Analysis for 2048 Optimization](https://github.com/OWNER-USERNAME/POWER-OF-2-REPO)
-*Role: Lead RL Architect & Experimentation Lead · Stack: `Python`, `PyTorch`, `PPO`, `CNN + MLP`, `GAE`*
+*RL Modeling & Experimentation Lead (CS 175) · Stack: `Python`, `PyTorch`, `PPO`, `CNN + MLP`, `GAE`*
 
 Designed an RL agent to navigate high-dimensional, stochastic grid states where minor early sub-optimality compounds into terminal board locks. Rather than tuning a single architecture blindly, I ran structured ablations across four paradigms to isolate exact model and reward failure modes:
 
@@ -24,7 +24,7 @@ Designed an RL agent to navigate high-dimensional, stochastic grid states where 
 ---
 
 #### 2. Domain Generalization for Cancer Histopathology (CS 172B)
-*Role: ML Researcher · Stack: `Python`, `PyTorch Geometric`, `Phikon (DINOv2)`, `GatConv`, `ABMIL`*
+*Co-Developer — GNN & Feature Pipeline (CS 172B) · Stack: `Python`, `PyTorch Geometric`, `Phikon (DINOv2)`, `GatConv`, `ABMIL`*
 
 Evaluated out-of-distribution generalization across cross-hospital distribution shifts (`LC25000` $\rightarrow$ `LungHist700`), comparing spatial graph aggregation against set-based attention pooling under tight compute constraints:
 * **Compute-Efficient Feature Pipeline:** Froze a domain-pretrained **DINOv2 Phikon** vision encoder with `3x3` patch tiling and stain augmentations to pre-extract `768-dim` feature bags—eliminating backbone retraining overhead and achieving the fastest iteration cycle in the research group.
@@ -32,17 +32,17 @@ Evaluated out-of-distribution generalization across cross-hospital distribution 
 
 ---
 
-#### 3. [Kotoba — AI-Driven Japanese Language Learning System](https://github.com/YOUR-USERNAME/YOUR-KOTOBA-REPO)
-*Role: Creator & Tech Lead (48-Hour Hackathon) · Stack: `Python`, `Llama 4`, `Whisper (STT)`, `Custom Scrapers`, `Local Caching`*
+#### 3. [Kotoba — AI Japanese Language Learning App](https://github.com/YOUR-USERNAME/YOUR-KOTOBA-REPO)
+*Project Lead & Product/Systems Designer (48-Hour Hackathon) · Tools: `Lucidchart`, `System Design`, `Technical Documentation`*
 
-Architected and shipped an end-to-end mobile prototype from scratch under a 48-hour deadline, taking full ownership of system architecture, data-parsing pipelines, and core integration after 3 of 5 teammates dropped out mid-sprint:
-* **LLM & Latency Engineering:** Integrated **Llama 4** with strict JLPT proficiency constraints, custom YouTube transcript scrapers, and a localized caching layer—cutting translation latency by **4x**.
-* **Closed-Loop Evaluation:** Built dual-language vocalization feedback loops pairing speech-to-text transcription with automated proficiency verification.
+Initiated and led a 5-person team during a 48-hour hackathon to prototype an AI-powered Japanese learning application, owning product scope, technical specifications, and delivery execution:
+* **End-to-End System Flow & Data Economy:** Mapped the full user journey and data-parsing flow in **Lucidchart**, and authored the technical specification defining the application's tech stack (`Llama 4`, speech-to-text, YouTube transcript ingestion, and caching economy) so engineers could build independently.
+* **Team Coordination & Scope Triage:** Matched deliverables to teammates' strengths and re-scoped features on the fly when 3 of 5 team members dropped out mid-sprint, keeping the prototype on track for on-time submission.
 
 ---
 
 #### 4. High-Throughput Information Retrieval Engine (CS 121)
-*Role: Systems & Search Engineer · Stack: `Python`, `Inverted Indexing`, `Porter Stemming`, `TF-IDF / Ranking`*
+*Indexing & Pipeline Optimization (CS 121) · Stack: `Python`, `Inverted Indexing`, `Porter Stemming`, `TF-IDF / Ranking`*
 
 * Refactored document tokenization, stemming, and disk-batched inverted index construction to eliminate memory/I/O bottlenecks across large document corpora while preserving retrieval precision.
 
@@ -51,8 +51,8 @@ Architected and shipped an end-to-end mobile prototype from scratch under a 48-h
 ### Technical Stack
 * **RL & ML:** `PyTorch`, `PPO`, `Actor-Critic`, `Reward Shaping`, `PyTorch Geometric (GNNs)`, `DINOv2`, `LIME`, `scikit-learn`
 * **Languages & Data:** `Python`, `C++`, `SQL`, `NumPy`, `Pandas`
-* **Systems & Tooling:** `Git`, `Linux`, `Custom Web Scrapers`, `LLM APIs & Caching Pipelines`
+* **Systems & Tooling:** `Git`, `Linux`, `Lucidchart`, `System & Data-Flow Design`
 
 ---
 
-> *Note: Selected coursework repositories (`CS 172B`, `CS 121`) are kept private in accordance with UC Irvine academic integrity policies; code samples and architectural walkthroughs are available upon request.*
+> *Note: Selected coursework repositories (`CS 172B`,`CS 121`) are kept private in accordance with UC Irvine academic integrity policies; code samples and architectural walkthroughs are available upon request.*
