@@ -31,14 +31,12 @@ Evaluated out-of-distribution generalization across cross-hospital distribution 
 * **Graph vs. Set Benchmarking:** Implemented a custom **3-layer `GatConv` GNN** combining spatial adjacency and feature-similarity edges (**153K parameters**, **4.38ms inference**), benchmarking generalization and latency against an **ABMIL** baseline (`61.1%` internal accuracy).
 
 ---
-
 #### 3. [Kotoba — AI Japanese Language Learning App](https://github.com/YOUR-USERNAME/YOUR-KOTOBA-REPO)
 *Project Lead & Product/Systems Designer (48-Hour Hackathon) · Tools: `Lucidchart`, `System Design`, `Technical Documentation`*
 
-Initiated and led a 5-person team during a 48-hour hackathon to prototype an AI-powered Japanese learning application, owning product scope, technical specifications, and delivery execution:
-* **End-to-End System Flow & Data Economy:** Mapped the full user journey and data-parsing flow in **Lucidchart**, and authored the technical specification defining the application's tech stack (`Llama 4`, speech-to-text, YouTube transcript ingestion, and caching economy) so engineers could build independently.
-* **Team Coordination & Scope Triage:** Matched deliverables to teammates' strengths and re-scoped features on the fly when 3 of 5 team members dropped out mid-sprint, keeping the prototype on track for on-time submission.
-
+Initiated and led a 5-person team during a 48-hour hackathon to prototype an AI-powered Japanese learning application, owning product architecture, data-flow design, and delivery execution:
+* **End-to-End System Flow & Latency-Aware UX:** Mapped the full user journey and data-parsing pipeline in **Lucidchart**, proposing **YouTube playlist/lyric scraping** and **incremental API fetching** so users could interact with lessons immediately without blocking on full-batch loads.
+* **Technical Specification & Team Triage:** Authored the centralized spec defining the app's data economy and integration boundaries, matched deliverables to teammates' strengths, and re-scoped non-critical features on the fly when half of teammates dropped out mid-sprint.
 ---
 
 #### 4. High-Throughput Information Retrieval Engine (CS 121)
